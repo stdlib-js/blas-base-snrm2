@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-snrm2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Calculate the L2-norm of a single-precision floating-point vector.",
   "license": "Apache-2.0",
   "author": {
