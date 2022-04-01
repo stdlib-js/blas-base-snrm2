@@ -1,0 +1,41 @@
+{
+  "name": "@stdlib/blas-base-snrm2",
+  "version": "0.0.0",
+  "description": "Calculate the L2-norm of a single-precision floating-point vector.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/blas-base-snrm2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "blas",
+    "level 1",
+    "snrm2",
+    "nrm2",
+    "euclidean",
+    "magnitude",
+    "2-norm",
+    "l2-norm",
+    "norm",
+    "distance",
+    "length",
+    "vector",
+    "array",
+    "float32",
+    "float",
+    "float32array"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
