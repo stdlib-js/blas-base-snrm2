@@ -48,7 +48,7 @@ The [L2-norm][l2-norm] is defined as
 ## Usage
 
 ```javascript
-import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@deno/mod.js';
+import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@v0.0.7-deno/mod.js';
 ```
 
 #### snrm2( N, x, stride )
@@ -159,7 +159,7 @@ var z = snrm2.ndarray( N, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@deno/mod.js';
+import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@v0.0.7-deno/mod.js';
 
 var x;
 var i;
