@@ -45,19 +45,25 @@
     "@stdlib/math-base-special-abs": "^0.0.6",
     "@stdlib/math-base-special-pow": "^0.0.7",
     "@stdlib/math-base-special-sqrt": "^0.0.8",
+    "@stdlib/napi-argv": "github:stdlib-js/napi-argv#main",
+    "@stdlib/napi-argv-int64": "github:stdlib-js/napi-argv-int64#main",
+    "@stdlib/napi-argv-strided-float32array": "github:stdlib-js/napi-argv-strided-float32array#main",
+    "@stdlib/napi-export": "github:stdlib-js/napi-export#main",
     "@stdlib/number-float64-base-to-float32": "^0.0.7",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
     "@stdlib/utils-library-manifest": "^0.0.8",
     "@stdlib/utils-try-require": "^0.0.7"
   },
   "devDependencies": {
+    "@stdlib/array-filled-by": "^0.0.2",
     "@stdlib/array-float32": "^0.0.6",
     "@stdlib/assert-is-browser": "^0.0.8",
     "@stdlib/bench": "^0.0.12",
     "@stdlib/math-base-assert-is-nan": "^0.0.8",
-    "@stdlib/math-base-special-floor": "^0.0.8",
-    "@stdlib/math-base-special-round": "^0.0.7",
-    "@stdlib/random-base-randu": "^0.0.8",
+    "@stdlib/random-base-discrete-uniform": "^0.0.6",
+    "@stdlib/random-base-uniform": "^0.0.6",
+    "@stdlib/strided-base-min-view-buffer-index": "^0.0.1",
+    "@stdlib/strided-base-offset-view": "^0.0.1",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
@@ -100,7 +106,9 @@
     "float",
     "float32array"
   ],
-  "__stdlib__": {},
+  "__stdlib__": {
+    "wasm": false
+  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
