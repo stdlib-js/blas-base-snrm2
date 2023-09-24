@@ -59,7 +59,7 @@ The [L2-norm][l2-norm] is defined as
 ## Usage
 
 ```javascript
-import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@deno/mod.js';
+import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@v0.1.0-deno/mod.js';
 ```
 
 #### snrm2( N, x, stride )
@@ -162,7 +162,7 @@ var z = snrm2.ndarray( 4, x, 2, 1 );
 ```javascript
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@deno/mod.js';
+import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@v0.1.0-deno/mod.js';
 
 var x = filledarrayBy( 10, 'float32', discreteUniform( 0, 100 ) );
 console.log( x );
