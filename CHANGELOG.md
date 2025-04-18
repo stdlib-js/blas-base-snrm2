@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-04-18)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`0b47cf8`](https://github.com/stdlib-js/stdlib/commit/0b47cf837eea09d4fd0c004f089b38890598d135) - **test:** increase test code coverage in `blas/base/snrm2` [(#6688)](https://github.com/stdlib-js/stdlib/pull/6688) _(by Shabareesh Shetty, Athan Reines)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`1e1ea6f`](https://github.com/stdlib-js/stdlib/commit/1e1ea6ff33763f68e8ae501830356cc67381cc1a) - **feat:** update JavaScript implementation and add C `ndarray` API for `blas/base/snrm2` [(#2924)](https://github.com/stdlib-js/stdlib/pull/2924) _(by Aman Bhansali)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
@@ -36,11 +37,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
 -   Philipp Burckhardt
+-   Shabareesh Shetty
 
 </section>
 
