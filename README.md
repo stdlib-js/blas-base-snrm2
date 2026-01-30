@@ -59,7 +59,7 @@ The [L2-norm][l2-norm] is defined as
 ## Usage
 
 ```javascript
-import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@esm/index.mjs';
+import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@v0.3.0-esm/index.mjs';
 ```
 
 #### snrm2( N, x, stride )
@@ -164,7 +164,7 @@ var z = snrm2.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@esm/index.mjs';
+import snrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-snrm2@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
